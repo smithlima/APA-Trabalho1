@@ -1,13 +1,13 @@
 ﻿# APA 
 ### Implementação dos seguintes algoritmos de ordenação.
 
-   | Nº | Algoritmo de ordenação|
-   | --- | --- |
-   | 1 | Selection sort |
-   | 2 | Insertion sort |
-   | 3 | Merge sort |
-   | 4 | Quicksort |
-   | 5 | Heapsort |
+Nº | Algoritmo de ordenação
+--- | --- 
+1 | Selection sort 
+2 | Insertion sort 
+3 | Merge sort 
+4 | Quicksort 
+5 | Heapsort 
 
 Programa feito no Ambiente Unix e utilizando a Linguagem de Programação Python. 
 
