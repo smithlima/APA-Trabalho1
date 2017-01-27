@@ -105,32 +105,35 @@ def heap(list1):
 ########################################################################
 def main(argv):
 	print(argv)
-	f =  open(argv[2], 'r+')
-	list1 = []
-	for num in f.readlines():
-		list1.append(int(num.rstrip('\n')))
-	f = open("saida.txt", 'w+')
+	
+	size = int(input())
+	list1 =[]
+	for i in range(size):
+		list1.append(int(input()))
+
+	
 	if argv[1]=="1":
-		f.write("SELECTION SORT \n")
+		print("SELECTION SORT \n")
 		selection(list1)
 	elif argv[1]=="2":
-		f.write("INSERTION SORT \n")
+		print("INSERTION SORT \n")
 		insertion(list1)
 	elif argv[1]=="3":
-		f.write("MERGE SORT \n")
+		print("MERGE SORT \n")
 		merge(list1)
 	elif argv[1]=="4":
-		f.write("QUICK SORT \n")
+		print("QUICK SORT \n")
 		quick(list1,0,len(list1)-1)
 	elif argv[1]=="5":
-		f.write("HEAPSORT \n")
+		print("HEAPSORT \n")
 		heap(list1)
 	else:
 		return (print("Valor invalido"))
-		
+	
 	for i in list1:
-		f.write("%d\n"%(i))
+		print(i)
 
+	
 if __name__ == "__main__":
 
 	main(sys.argv)

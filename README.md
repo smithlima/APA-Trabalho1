@@ -12,9 +12,9 @@ Nº | Algoritmo de ordenação
 Programa feito no Ambiente Unix e utilizando a Linguagem de Programação Python. 
 
 ```
-python [algoritmos] [numero_do_algoritmo] [arquivo_de_entrada]
+python [algoritmos] [numero_do_algoritmo] < [arquivo_de_entrada] >[arquivo_saida]
 ```
-exemplo: python FULL.py 2 entrada.txt
+exemplo: python FULL.py 2 < entrada.txt > saida.txt
 
 
 Smith Lima
